@@ -1,0 +1,48 @@
+/target/
+!.mvn/wrapper/maven-wrapper.jar
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+.mvn
+mvnw
+mvnw.cmd
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/build/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+将删除 .gitignore
+将删除 .mvn/
+将删除 config-client/.gitignore
+将删除 config-client/.mvn/
+将删除 config-client/mvnw
+将删除 config-client/mvnw.cmd
+将删除 config-client/pom.xml
+将删除 config-client/src/
+将删除 config-server/.gitignore
+将删除 config-server/.mvn/
+将删除 config-server/mvnw
+将删除 config-server/mvnw.cmd
+将删除 config-server/pom.xml
+将删除 config-server/src/
+将删除 service-feign/src/main/resources/static/
+将删除 service-feign/src/main/resources/templates/
+将删除 service-ribbon/src/main/resources/static/
+将删除 service-ribbon/src/main/resources/templates/
+将删除 service-turbine/src/main/resources/static/
+将删除 service-turbine/src/main/resources/templates/
