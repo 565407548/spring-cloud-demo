@@ -1,4 +1,4 @@
-package com.zcj.demo;
+package com.zcj.eurekaserver;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

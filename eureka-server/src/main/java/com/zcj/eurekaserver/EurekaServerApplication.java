@@ -1,4 +1,4 @@
-package com.zcj.demo;
+package com.zcj.eurekaserver;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
