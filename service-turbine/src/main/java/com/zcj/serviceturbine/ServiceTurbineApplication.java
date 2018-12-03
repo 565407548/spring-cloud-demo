@@ -19,6 +19,9 @@ import org.springframework.web.bind.annotation.RestController;
 @EnableCircuitBreaker
 @EnableTurbine
 public class ServiceTurbineApplication {
+    /**
+     * http://localhost:8791/turbine.stream
+     */
     public static void main(String[] args) {
         SpringApplication.run(ServiceTurbineApplication.class, args);
     }

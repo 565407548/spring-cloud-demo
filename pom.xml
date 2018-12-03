@@ -25,6 +25,7 @@
         <module>service-ribbon</module>
         <module>config-server</module>
         <module>config-client</module>
+        <module>service-zuul</module>
     </modules>
 
     <properties>

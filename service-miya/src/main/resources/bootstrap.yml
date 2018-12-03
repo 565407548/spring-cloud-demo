@@ -1,0 +1,20 @@
+server:
+  port: 8751
+spring:
+  application:
+    name: service-miya
+  zipkin:
+    base-url: http://localhost:9411
+  sleuth:
+    sampler:
+      probability: 1.0 #采样比例为1.0，是所有的访问都需要
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/

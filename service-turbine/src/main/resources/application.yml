@@ -20,10 +20,10 @@ management:
         allowed-methods: "*"
 
 turbine:
-  app-config: service-hi
+  app-config: service-hi,service-miya,service-ribbon
   aggregator:
     cluster-config: default
   cluster-name-expression: new String("default")
   combine-host-port: true
-  instanceUrlSuffix:
-    default: actuator/hystrix.stream
+#  instanceUrlSuffix:
+#    default: actuator/hystrix.stream
