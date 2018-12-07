@@ -1,0 +1,23 @@
+server:
+  port: 8732
+
+spring:
+  application:
+    name: config-server
+  #配置git仓库地址
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/565407548/spring-config-server-auth.git
+          search-paths: respo  #配置仓库路径
+          username: #访问git仓库的用户名
+          password: #访问git仓库的用户密码
+      label: master #配置仓库的分支
+
+#spring.cloud.config.server.git.uri=https://github.com/565407548/spring-config-server-demo.git
+#spring.cloud.config.server.git.searchPaths=respo
+#spring.cloud.config.label=master
+#spring.cloud.config.server.git.username=
+#spring.cloud.config.server.git.password=
+

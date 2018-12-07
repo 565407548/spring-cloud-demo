@@ -19,13 +19,11 @@
     </parent>
 
     <modules>
-        <module>eureka-server</module>
+        <module>register-server</module>
         <module>service-hi</module>
-        <module>service-feign</module>
         <module>service-ribbon</module>
         <module>config-server</module>
         <module>config-client</module>
-        <module>service-zuul</module>
     </modules>
 
     <properties>
@@ -71,6 +69,12 @@
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-netflix-eureka-client</artifactId>
+            <version>RELEASE</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.security.oauth</groupId>
+            <artifactId>spring-security-oauth2</artifactId>
             <version>RELEASE</version>
             <scope>compile</scope>
         </dependency>

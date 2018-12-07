@@ -1,0 +1,14 @@
+server.port=8621
+server.servlet.context-path=/uaa
+spring.application.name=auth-service
+#  cloud:
+#    config:
+#      label: master
+#      profile: dev
+#      discovery:
+#        service-id: config-server
+#        enabled: true
+spring.cloud.config.discovery.service-id=config-server
+spring.cloud.config.discovery.enabled=true
+spring.cloud.config.label=master
+spring.cloud.config.profile=dev
