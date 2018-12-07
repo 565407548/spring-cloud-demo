@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: monitoring
+  cloud:
+    config:
+      label: master
+      profile: dev
+      discovery:
+        service-id: config-server
+        enabled: true
+server:
+  port: 8631

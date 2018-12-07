@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: turbine-stream-service
+  cloud:
+    config:
+      label: master
+      profile: dev
+      discovery:
+        service-id: config-server
+        enabled: true
